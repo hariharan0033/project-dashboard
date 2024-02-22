@@ -1,10 +1,17 @@
 
 body{
-    background-color: white;
+    background-color: #22232b;
 }
 a:link {
     text-decoration: none;
-    color: black;
+    color:whitesmoke;
+    
+}
+a:hover{
+    background-color: deeppink;
+}
+p,h3,li{
+    color: white;
 }
 .menu{
     position: fixed;
@@ -12,19 +19,21 @@ a:link {
     width: 10%;
     top: 0px;
     height: 100%;
-    border: solid black 1px;
+    border: solid white 1px;
     padding-left: 9px;
     padding-bottom: 25px;
+    background-color: #31353b;
 }
 
 .topbar{
     position: fixed ;
     top: 0;
-    border: black solid 1px;
+    border: white solid 1px;
     left: 11%;
     right: 0;
     padding: 20px;
     height: 15%;
+    background-color: #31353b;
 }
 .project{
     position: absolute;
@@ -44,11 +53,12 @@ a:link {
 
 }
 .eachproject{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 15px;
     padding: 5px;
     width: 40%;
     border-radius: 5px;
+    background-color: #31353b;
 }
 
 .announcements{
@@ -62,6 +72,7 @@ left: 75%;
     border: black 1px solid;
     padding: 20px;
     border-radius: 5px;
+    background-color: #31353b;
 }
 
 .people{
@@ -75,4 +86,5 @@ left: 75%;
     border: black 1px solid;
     padding: 20px;
     border-radius: 5px;
+    background-color: #31353b;
 }
